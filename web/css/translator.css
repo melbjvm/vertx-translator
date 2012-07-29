@@ -1,0 +1,43 @@
+body {
+    background: url(../img/irongrip.png);
+}
+
+textarea {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.translation {
+    font-size: 22px;
+    line-height: 50px;
+    background-repeat: no-repeat;
+    padding-left:50px;
+}
+
+#content-panel {
+    background-color: white;
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.footer {
+    color: #999999;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.Spanish {
+    background-image: url("../img/spain.png");
+}
+
+.Italian {
+    background-image: url("../img/italy.png")
+}
+
+.French {
+    background-image: url("../img/france.png")
+}
+

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Translator</title>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/sockjs.js"></script>
+    <script src="js/vertxbus.js"></script>
+    <script src="js/translator.js"></script>
+
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+    <link href="css/translator.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+    <!--Fixed, non-scrolling top navbar -->
+    <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="brand" href="#">Vert.x Translator</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-panel" class="container">
+
+        <div class="row">
+            <div class="span4">
+                <h2>Input</h2>
+                <form id="translateForm">
+                    <textarea id="input" name="input" cols="30" rows="8"></textarea><br/>
+
+                    <button id="populateButton">Populate!</button>
+                    <button id="translateButton">Translate!</button>
+                    <button id="clearButton">Clear!</button>
+                </form>
+            </div>
+            <div id="output" class="span8">
+                <h2>Translations</h2>
+                <div id="translations"/>
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="span4">&nbsp;</div>
+            <div class="span8 footer"><small>Icons courtesy of <a href="http://alpak.deviantart.com/">Alpak</a></small></div>
+        </div>
+    </div>
+
+
+</body>
+</html>
